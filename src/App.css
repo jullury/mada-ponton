@@ -7,10 +7,26 @@
 }
 
 @font-face {
+  font-family: "GilroyRegular";
+  src:
+    local("GilroyRegular"),
+    url("/fonts/Gilroy-Regular.woff") format("woff");
+  font-weight: normal;
+}
+
+@font-face {
   font-family: "GilroyMedium";
   src:
     local("GilroyMedium"),
     url("/fonts/Gilroy-Medium.woff") format("woff");
+  font-weight: medium;
+}
+
+@font-face {
+  font-family: "GilroySemiBold";
+  src:
+    local("GilroySemiBold"),
+    url("/fonts/Gilroy-SemiBold.ttf") format("truetype");
   font-weight: medium;
 }
 

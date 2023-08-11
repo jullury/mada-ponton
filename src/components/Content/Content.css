@@ -1,3 +1,17 @@
 .app-content {
-  flex-grow: 1;
+  width: 800px;
+  margin: 0 auto;
+  display: flex;
+  padding: 32px;
+  padding-bottom: 16px;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 32px;
+  color: #14141f;
+}
+
+.app-content h4,
+.app-content p {
+  text-align: left;
+  margin: 0;
 }

@@ -1,0 +1,127 @@
+.personal-info {
+  display: flex;
+  gap: 16px;
+  flex-direction: column;
+  color: #4c4c55;
+}
+
+.personal-info-label {
+  font-size: 24px;
+  line-height: 30px;
+  font-family: GilroySemiBold, Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+.personal-info-form {
+  display: flex;
+  gap: 16px;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.personal-info-form .form-line {
+  display: flex;
+  gap: 24px;
+}
+
+.personal-info-form input {
+  width: 100%;
+}
+
+.w-1\/2 {
+  width: 50%;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.form-container {
+  display: flex;
+  gap: 16px;
+}
+
+.form-container .avatar {
+  width: 144px;
+  height: 144px;
+  border-radius: 1000px;
+}
+
+.personal-info fieldset.form-field {
+  border-radius: 4px;
+  padding: 0;
+  height: 56px;
+  display: flex;
+  border-color: #e3e3e4;
+  border-width: 1px;
+  overflow: hidden;
+}
+
+.personal-info .form-field input {
+  height: 40px;
+  background-color: #ffffff;
+  color: #595964;
+  border: 0;
+  width: 100%;
+  font-size: 15px;
+  line-height: 22px;
+}
+
+.personal-info .form-field input:focus-visible {
+  border: 0;
+  border-color: #ffffff;
+  border-style: none;
+  outline: none;
+}
+
+.personal-info button.submit {
+  width: 170px;
+  height: 40px;
+  padding: 16px;
+  border-radius: 4px;
+  background: #1688fe;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.personal-info button.submit p {
+  margin: 0;
+  font-family: GilroySemiBold, Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  text-align: center;
+  color: #ffffff;
+}
+
+.personal-info .form-field legend {
+  text-align: left;
+  margin-left: 10px;
+  font-size: 10px;
+}
+
+.personal-info .form-field div.content {
+  display: flex;
+  padding: 0 10px;
+  gap: 16px;
+  width: 100%;
+  align-items: center;
+}
+
+.personal-info .form-field div.content img {
+  width: 16px;
+  height: 16px;
+}
+
+.personal-info p.use-email-text {
+  font-size: 15px;
+  font-family: GilroyMedium, Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 22px;
+}
+
+a.resume-link,
+a.resume-link:active,
+a.resume-link:visited {
+  color: #1688fe;
+}

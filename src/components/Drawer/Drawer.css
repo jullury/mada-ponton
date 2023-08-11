@@ -44,7 +44,7 @@ h5.action-label {
   font-size: 13px;
   line-height: 20px;
   color: #14141f;
-  font-family: "GilroyBold", monospace;
+  font-family: "GilroyBold", Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
 }
 
 h5.navigation-label {
@@ -58,7 +58,7 @@ h5.navigation-label {
   font-size: 13px;
   line-height: 20px;
   color: #4c4c55;
-  font-family: "GilroyMedium", monospace;
+  font-family: "GilroyMedium", Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
 }
 
 .drawer-navigation .action-label {

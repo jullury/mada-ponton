@@ -1,0 +1,44 @@
+.app-alert {
+  background-color: #008b5d;
+  display: flex;
+  padding: 32px;
+  border-radius: 8px;
+  gap: 16px;
+  font-family: GilroySemiBold, Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  color: #ffffff;
+  align-items: center;
+}
+
+.carrer-image {
+  background-color: #ffffff;
+  width: 60px;
+  height: 60px;
+  padding: 12px;
+  border-radius: 1000px;
+  display: flex;
+  justify-content: center;
+}
+
+.carrer-label {
+  display: flex;
+  gap: 4px;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.carrer-label p,
+.carrer-label h4 {
+  text-align: left;
+  color: #ffffff;
+  margin: 0;
+}
+
+.carrer-label h4 {
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.carrer-label p {
+  font-size: 15px;
+  line-height: 22px;
+}
